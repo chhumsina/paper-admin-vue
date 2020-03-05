@@ -1,0 +1,47 @@
+.el-card {
+  &.the-card {
+    box-shadow: none;
+    border-radius: 0;
+    .el-card__header {
+      padding: 0 20px;
+      .header-inner {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.el-link {
+  &.the-link + &.the-link {
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  &.the-link {
+    .el-link--inner {
+      font-weight: normal;
+    }
+  }
+}
+
+.el-button {
+  &.the-button {
+    &.el-button--small {
+      font-size: 13px;
+      margin-left: 5px;
+      font-weight: normal;
+    }
+  }
+}
+
+.el-drawer__wrapper {
+  &.the-drawer {
+    .el-drawer__header {
+      span {
+        outline: 0;
+      }
+    }
+  }
+}
